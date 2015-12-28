@@ -16,12 +16,15 @@
         android:layout_height="wrap_content"
         app:iconColor="#0099cc"
         app:iconFont="fonts/material-icon-font.ttf"
+
         app:iconSize="36dp" />
 
     <TextView
         android:layout_centerVertical="true"
         android:textSize="19sp"
         android:textColor="@color/text_gray"
+
+        android:text="我是 谁的发动发电机开发"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/icon"
         android:id="@+id/node_value"
